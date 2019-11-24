@@ -24,4 +24,4 @@ eureka:
      defaultZone: http://localhost:8075/eureka/
 
 application:
-  version: task-service-v2
+  version: task-service-v3
