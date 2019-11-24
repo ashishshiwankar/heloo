@@ -21,11 +21,14 @@ spring:
   #ribbon:
     #listOfServers: http://localhost:9080/
 
-# to get same respone through eureka server i can hide ribbon to check....why u configuring this agian and agian in yml file
-# u should get same respone throuht server
+# to get same respone through eureka server i can hide ribbon to check..333no need to ribbon bcz we are in eurkha server..why u configuring this agian and agian in yml file
+# u should get same respone throuht erurkha server
 
 #Eureka
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8075/eureka/
+
+application:
+  version: user-service-v1

@@ -23,3 +23,5 @@ eureka:
     service-url:
      defaultZone: http://localhost:8075/eureka/
 
+application:
+  version: task-service-v1
