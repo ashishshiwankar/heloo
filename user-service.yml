@@ -31,4 +31,4 @@ eureka:
       defaultZone: http://localhost:8075/eureka/
 
 application:
-  version: user-service-v1
+  version: user-service-v2
